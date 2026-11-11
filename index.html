@@ -3,24 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-<style>
-  body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-  }
-</style>
+    <!-- SEO Meta Tags -->
+    <title>Md. Jahirul Islam | Full-Stack Developer in Bangladesh</title>
+    <meta name="description" content="Md. Jahirul Islam is a Full-Stack Developer specializing in Python, Django, Laravel, React, Next.js, REST APIs and AI Engineering.">
+    <meta name="keywords" content="Md Jahirul Islam, Full Stack Developer, Backend Developer, Python, Django, Laravel, React, Next.js, AI Engineering, Bangladesh">
+    <meta name="author" content="Md. Jahirul Islam">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#212529">
+
+    <link rel="canonical" href="https://portfolio-by-bootstrap.netlify.app/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Md. Jahirul Islam | Full-Stack Developer">
+    <meta property="og:description" content="Explore my portfolio, technical skills, education, professional experience and software development projects.">
+    <meta property="og:url" content="https://portfolio-by-bootstrap.netlify.app/">
+    <meta property="og:image" content="https://portfolio-by-bootstrap.netlify.app/images/jahirul.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Md. Jahirul Islam | Full-Stack Developer">
+    <meta name="twitter:description" content="Full-Stack Developer specializing in backend development, modern web technologies and AI engineering.">
+    <meta name="twitter:image" content="https://portfolio-by-bootstrap.netlify.app/images/jahirul.png">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Md. Jahirul Islam",
+      "url": "https://portfolio-by-bootstrap.netlify.app/",
+      "image": "https://portfolio-by-bootstrap.netlify.app/images/jahirul.png",
+      "jobTitle": "Full-Stack Developer",
+      "email": "mailto:jahir002201@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dhaka",
+        "addressCountry": "BD"
+      },
+      "sameAs": [
+        "https://github.com/jahir002201",
+        "https://www.linkedin.com/in/jahirul12/"
+      ],
+      "knowsAbout": [
+        "Python",
+        "Django",
+        "Django REST Framework",
+        "PHP",
+        "Laravel",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "REST APIs",
+        "AI Engineering"
+      ]
+    }
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+      }
+    </style>
 
 </head>
+
 <body class="bg-dark">
+
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
@@ -38,9 +103,12 @@
           <li class="nav-item"><a class="nav-link active" href="#portfolio">Portfolio</a></li>
           <li class="nav-item"><a class="nav-link active" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#experience">Experience</a></li>
+
           <li class="nav-item">
             <a href="resume.pdf" download class="btn btn-sm btn-info ms-lg-3">
-            Resume <i class="bi bi-download"></i>
+              Resume <i class="bi bi-download"></i>
             </a>
           </li>
         </ul>
@@ -48,73 +116,122 @@
     </div>
   </nav>
 
-    <section class="container py-5 d-flex flex-column flex-md-row align-items-center">
+  <!-- Hero / About -->
+  <section id="about" class="container py-5 d-flex flex-column flex-md-row align-items-center">
+
     <div class="flex-fill">
       <h2 class="fw-bold text-info">HI !</h2>
-      <h3 class="fw-bold text-info">I'M <span class="text-info">Md. Jahirul Islam</span></h3>
-      <p class="text-white">Full-Stack Developer || Next.js Developer || Programmer</p>
+
+      <h3 class="fw-bold text-info">
+        I'M <span class="text-info">Md. Jahirul Islam</span>
+      </h3>
+
+      <p class="text-white">
+        Full-Stack Developer || Next.js Developer || Programmer
+      </p>
+
       <p class="text-white">
         I love to invent and build innovative solutions. Currently, I’m mastering React and Next.js while expanding my knowledge in modern development practices.
 
- | Full-Stack Developer | Expertise in JavaScript, TypeScript, Node.js, Python, PHP, C/C++ | Proficient in Data Structures & Algorithms
+        | Full-Stack Developer | Expertise in JavaScript, TypeScript, Node.js, Python, PHP, C/C++ | Proficient in Data Structures & Algorithms
       </p>
+
       <div class="mt-3">
-        <a href="https://github.com/jahir002201" class="btn btn-sm btn-info m-2"><i class="fbi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/jahirul12/" class="btn btn-sm btn-info m-2"><i class="bi bi-linkedin"></i></a>
-        <a href="#" class="btn btn-sm btn-info m-2"><i class="bi bi-youtube"></i></a>
-        <a class="btn btn-info" href="resume.pdf" download class="btn btn-sm">Resume <i class="bi bi-download"></i></a>
+        <a href="https://github.com/jahir002201" class="btn btn-sm btn-info m-2">
+          <i class="fbi bi-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/jahirul12/" class="btn btn-sm btn-info m-2">
+          <i class="bi bi-linkedin"></i>
+        </a>
+
+        <a href="#" class="btn btn-sm btn-info m-2">
+          <i class="bi bi-youtube"></i>
+        </a>
+
+        <a class="btn btn-info" href="resume.pdf" download class="btn btn-sm">
+          Resume <i class="bi bi-download"></i>
+        </a>
       </div>
     </div>
+
     <div class="mt-4 mt-md-0 ms-md-5">
-      <img src="images/jahirul.jpg" alt="profile" class="img-fluid rounded" />
+      <img src="images/jahirul.png" alt="Md. Jahirul Islam - Full Stack Developer" class="img-fluid rounded" />
     </div>
+
   </section>
 
+  <!-- Portfolio -->
+  <section id="portfolio" class="container py-5">
 
- <section id="portfolio" class="container py-5">
     <h2 class="fw-bold text-white text-center mb-4">Portfolio</h2>
+
+    <!-- Portfolio Project -->
     <div class="card bg-dark border-secondary mb-4">
+
       <div class="row">
+
         <div class="col-md-5">
+
           <div id="carouselPortfolio1" class="carousel slide" data-bs-ride="carousel">
+
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselPortfolio1" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
+
               <button type="button" data-bs-target="#carouselPortfolio1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
               <button type="button" data-bs-target="#carouselPortfolio1" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+
             <div class="carousel-inner">
+
               <div class="carousel-item active">
-                <img src="images/myportfolio1.png" class="d-block w-100" alt="portfolio">
+                <img src="images/myportfolio1.png" class="d-block w-100" alt="Portfolio project screenshot">
               </div>
+
               <div class="carousel-item">
-                <img src="images/myportfolio2.png" class="d-block w-100" alt="portfolio">
+                <img src="images/myportfolio2.png" class="d-block w-100" alt="Portfolio project screenshot">
               </div>
+
               <div class="carousel-item">
-                <img src="images/myportfolio2.png" class="d-block w-100" alt="portfolio">
+                <img src="images/myportfolio2.png" class="d-block w-100" alt="Portfolio project screenshot">
               </div>
+
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio1" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
+
             <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio1" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+
           </div>
         </div>
+
         <div class="col-md-7 p-3">
-          <a class="text-decoration-none" target="_blank" href="https://my-portfolio-smoky-xi-63.vercel.app/"><h5 class="text-info">My Portfolio Project <i class="bi bi-link"></i></h5></a>
+
+          <a class="text-decoration-none" target="_blank" href="https://my-portfolio-smoky-xi-63.vercel.app/">
+            <h5 class="text-info">
+              My Portfolio Project <i class="bi bi-link"></i>
+            </h5>
+          </a>
+
           <p class="small text-white">
             As a passionate Full-Stack Developer with a diverse skill set in JavaScript, TypeScript, Node.js, Python,
             PHP, and C/C++, I specialize in creating scalable web applications.
           </p>
+
           <ul class="small text-white">
             <li>About Me</li>
             <li>Overview</li>
             <li>My Work</li>
           </ul>
+
           <div>
             <span class="badge bg-secondary">React</span>
             <span class="badge bg-secondary">Next.js</span>
@@ -122,51 +239,76 @@
             <span class="badge bg-secondary">CSS</span>
             <span class="badge bg-secondary">Node</span>
           </div>
+
         </div>
       </div>
     </div>
 
+    <!-- Blog Project -->
     <div class="card bg-dark border-secondary">
+
       <div class="row">
+
         <div class="col-md-5">
+
           <div id="carouselPortfolio2" class="carousel slide" data-bs-ride="carousel">
+
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselPortfolio2" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
+
               <button type="button" data-bs-target="#carouselPortfolio2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
               <button type="button" data-bs-target="#carouselPortfolio2" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
+
             <div class="carousel-inner">
+
               <div class="carousel-item active">
-                <img src="images/myblog1.png" class="d-block w-100" alt="Blog">
+                <img src="images/myblog1.png" class="d-block w-100" alt="Blog project screenshot">
               </div>
+
               <div class="carousel-item">
-                <img src="images/myblog2.png" class="d-block w-100" alt="Blog">
+                <img src="images/myblog2.png" class="d-block w-100" alt="Blog project screenshot">
               </div>
+
               <div class="carousel-item">
-                <img src="images/myblog2.png" class="d-block w-100" alt="Blog">
+                <img src="images/myblog2.png" class="d-block w-100" alt="Blog project screenshot">
               </div>
+
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio2" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
+
             <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio2" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
+
           </div>
         </div>
+
         <div class="col-md-7 p-3">
-          <a class="text-decoration-none text-info" target="_blank" href="https://my-blog-azure-nine.vercel.app/"><h5 class="text-info">My Blog Project <i class="bi bi-link"></i></h5></a>
+
+          <a class="text-decoration-none text-info" target="_blank" href="https://my-blog-azure-nine.vercel.app/">
+            <h5 class="text-info">
+              My Blog Project <i class="bi bi-link"></i>
+            </h5>
+          </a>
+
           <p class="small text-white">
             Welcome to My Blog — insights, tutorials, and articles on web development and more.
           </p>
+
           <ul class="small text-white">
             <li>Multiple login providers</li>
             <li>Dynamic routes</li>
             <li>More feature integration</li>
           </ul>
+
           <div>
             <span class="badge bg-secondary">React</span>
             <span class="badge bg-secondary">Next.js</span>
@@ -174,87 +316,652 @@
             <span class="badge bg-secondary">CSS</span>
             <span class="badge bg-secondary">Node</span>
           </div>
+
         </div>
       </div>
     </div>
+
   </section>
 
-    <section id="skills" class="container py-5 d-flex flex-column flex-md-row align-items-center">
+  <!-- Skills -->
+  <section id="skills" class="container py-5 d-flex flex-column flex-md-row align-items-center">
+
     <div class="flex-fill">
-        <h5 class="fw-bold text-white">Expertise:</h5>
-    <p>
-      <span class="badge bg-secondary">React.js</span>
-      <span class="badge bg-secondary">Javascript</span>
-      <span class="badge bg-secondary">Node.js</span>
-      <span class="badge bg-secondary">Firebase</span>
-      <span class="badge bg-secondary">Express.js</span>
-      <span class="badge bg-secondary">HTML</span>
-      <span class="badge bg-secondary">Bootstrap</span>
-      <span class="badge bg-secondary">MongoDB</span>
-    </p>
 
-    <h5 class="fw-bold text-white">Comfortable:</h5>
-    <p>
-      <span class="badge bg-secondary">SQL</span>
-      <span class="badge bg-secondary">Redux</span>
-      <span class="badge bg-secondary">Socket.io</span>
-      <span class="badge bg-secondary">AWS</span>
-      <span class="badge bg-secondary">Docker</span>
-      <span class="badge bg-secondary">TypeScript</span>
-      <span class="badge bg-secondary">Next.js</span>
-    </p>
+      <h5 class="fw-bold text-white">Expertise:</h5>
 
-    <h5 class="fw-bold text-white">Familiar:</h5>
-    <p>
-      <span class="badge bg-secondary">C++</span>
-      <span class="badge bg-secondary">Python</span>
-      <span class="badge bg-secondary">Django</span>
-      <span class="badge bg-secondary">Networking</span>
-    </p>
+      <p>
+        <span class="badge bg-secondary">React.js</span>
+        <span class="badge bg-secondary">Javascript</span>
+        <span class="badge bg-secondary">Node.js</span>
+        <span class="badge bg-secondary">Firebase</span>
+        <span class="badge bg-secondary">Express.js</span>
+        <span class="badge bg-secondary">HTML</span>
+        <span class="badge bg-secondary">Bootstrap</span>
+        <span class="badge bg-secondary">MongoDB</span>
+      </p>
 
-    <h5 class="fw-bold text-white">Tools:</h5>
-    <p>
-      <span class="badge bg-secondary">VS Code</span>
-      <span class="badge bg-secondary">Sublime text</span>
-      <span class="badge bg-secondary">Nano</span>
-      <span class="badge bg-secondary">Git</span>
-    </p>
+      <h5 class="fw-bold text-white">Comfortable:</h5>
+
+      <p>
+        <span class="badge bg-secondary">SQL</span>
+        <span class="badge bg-secondary">Redux</span>
+        <span class="badge bg-secondary">Socket.io</span>
+        <span class="badge bg-secondary">AWS</span>
+        <span class="badge bg-secondary">Docker</span>
+        <span class="badge bg-secondary">TypeScript</span>
+        <span class="badge bg-secondary">Next.js</span>
+      </p>
+
+      <h5 class="fw-bold text-white">Familiar:</h5>
+
+      <p>
+        <span class="badge bg-secondary">C++</span>
+        <span class="badge bg-secondary">Python</span>
+        <span class="badge bg-secondary">Django</span>
+        <span class="badge bg-secondary">Networking</span>
+      </p>
+
+      <h5 class="fw-bold text-white">Tools:</h5>
+
+      <p>
+        <span class="badge bg-secondary">VS Code</span>
+        <span class="badge bg-secondary">Sublime text</span>
+        <span class="badge bg-secondary">Nano</span>
+        <span class="badge bg-secondary">Git</span>
+      </p>
+
     </div>
+
     <div class="text-center mt-4 mt-md-0 ms-md-5">
-     <h4 class="text-info fw-bold">My Education</h4>
+
+      <h4 class="text-info fw-bold">My Education</h4>
+
       <p class="text-white">
         B.Sc in Mathematics<br>
         National University, Bangladesh<br>
         <small>2018 - 2022</small>
       </p>
+
+    </div>
+
+  </section>
+
+  <!-- My Learning Journey / Education & Training -->
+  <section id="education" class="container py-5">
+
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold text-info">My Learning Journey</h2>
+
+      <h3 class="text-white fw-bold mt-2">
+        Education & Training
+      </h3>
+
+      <p class="text-secondary">
+        My academic background, professional training, and continuous learning
+        in software development and AI engineering.
+      </p>
+
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Education 01 -->
+      <div class="col-12">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <div class="row">
+
+            <div class="col-md-1">
+              <h2 class="text-info fw-bold">01</h2>
+            </div>
+
+            <div class="col-md-11">
+
+              <h4 class="text-white fw-bold">
+                Software Development with AI Engineering
+              </h4>
+
+              <h6 class="text-info">Next Level</h6>
+
+              <p class="text-secondary">
+                2026 – Present
+              </p>
+
+              <p class="text-white">
+                Currently enrolled in an intensive software development and AI engineering bootcamp focused on modern web development, software engineering fundamentals, databases, deployment, and AI-powered application development.
+              </p>
+
+              <h6 class="text-info mt-4">Key Areas</h6>
+
+              <div class="mb-3">
+                <span class="badge bg-secondary m-1">TypeScript</span>
+                <span class="badge bg-secondary m-1">Next.js</span>
+                <span class="badge bg-secondary m-1">PostgreSQL</span>
+                <span class="badge bg-secondary m-1">Drizzle ORM</span>
+                <span class="badge bg-secondary m-1">LLM Application Development</span>
+                <span class="badge bg-secondary m-1">Prompt Engineering</span>
+                <span class="badge bg-secondary m-1">AI-Powered SaaS</span>
+                <span class="badge bg-secondary m-1">RAG Systems</span>
+                <span class="badge bg-secondary m-1">LangChain</span>
+                <span class="badge bg-secondary m-1">LangGraph</span>
+                <span class="badge bg-secondary m-1">Docker</span>
+                <span class="badge bg-secondary m-1">Nginx</span>
+                <span class="badge bg-secondary m-1">CI/CD</span>
+              </div>
+
+              <h6 class="text-info mt-4">Activities & Highlights</h6>
+
+              <ul class="text-white">
+                <li>Hands-on Learning</li>
+                <li>Software Projects</li>
+                <li>AI Engineering</li>
+                <li>Problem Solving</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education 02 -->
+      <div class="col-12">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <div class="row">
+
+            <div class="col-md-1">
+              <h2 class="text-info fw-bold">02</h2>
+            </div>
+
+            <div class="col-md-11">
+
+              <h4 class="text-white fw-bold">
+                CSE Fundamentals with Phitron
+              </h4>
+
+              <h6 class="text-info">Phitron</h6>
+
+              <p class="text-secondary">
+                Sep 2024 – Feb 2026
+                <span class="text-info">| Grade: 4.0/4.0</span>
+              </p>
+
+              <p class="text-white">
+                Completed an intensive Computer Science program covering programming fundamentals, problem solving, algorithms, data structures, databases, Python, SQL, React, and machine learning.
+              </p>
+
+              <h6 class="text-info mt-4">Key Areas</h6>
+
+              <div class="mb-3">
+                <span class="badge bg-secondary m-1">C</span>
+                <span class="badge bg-secondary m-1">C++</span>
+                <span class="badge bg-secondary m-1">Python</span>
+                <span class="badge bg-secondary m-1">Algorithms & Data Structures</span>
+                <span class="badge bg-secondary m-1">OOP</span>
+                <span class="badge bg-secondary m-1">HTML</span>
+                <span class="badge bg-secondary m-1">CSS</span>
+                <span class="badge bg-secondary m-1">Bootstrap</span>
+                <span class="badge bg-secondary m-1">Tailwind CSS</span>
+                <span class="badge bg-secondary m-1">JavaScript</span>
+                <span class="badge bg-secondary m-1">React.js</span>
+                <span class="badge bg-secondary m-1">Django</span>
+                <span class="badge bg-secondary m-1">MVT</span>
+                <span class="badge bg-secondary m-1">Django REST Framework</span>
+                <span class="badge bg-secondary m-1">REST APIs</span>
+                <span class="badge bg-secondary m-1">SQL</span>
+                <span class="badge bg-secondary m-1">MySQL</span>
+                <span class="badge bg-secondary m-1">PostgreSQL</span>
+                <span class="badge bg-secondary m-1">SQLite</span>
+                <span class="badge bg-secondary m-1">FastAPI</span>
+                <span class="badge bg-secondary m-1">Machine Learning</span>
+              </div>
+
+              <h6 class="text-info mt-4">Activities & Highlights</h6>
+
+              <ul class="text-white">
+                <li>XPSC</li>
+                <li>XPSC Super Zone</li>
+                <li>PACA</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education 03 -->
+      <div class="col-12">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <div class="row">
+
+            <div class="col-md-1">
+              <h2 class="text-info fw-bold">03</h2>
+            </div>
+
+            <div class="col-md-11">
+
+              <h4 class="text-white fw-bold">
+                Professional Web Development
+              </h4>
+
+              <h6 class="text-info">Creative IT Institute</h6>
+
+              <p class="text-secondary">
+                Jun 2022 – Completed
+              </p>
+
+              <p class="text-white">
+                Completed professional web development training focused on full-stack application development, backend systems, frontend technologies, and practical software development.
+              </p>
+
+              <h6 class="text-info mt-4">Key Areas</h6>
+
+              <div class="mb-3">
+                <span class="badge bg-secondary m-1">Full-Stack Development</span>
+                <span class="badge bg-secondary m-1">PHP</span>
+                <span class="badge bg-secondary m-1">Laravel</span>
+                <span class="badge bg-secondary m-1">MVC</span>
+                <span class="badge bg-secondary m-1">RESTful APIs</span>
+                <span class="badge bg-secondary m-1">MySQL</span>
+                <span class="badge bg-secondary m-1">HTML</span>
+                <span class="badge bg-secondary m-1">CSS</span>
+                <span class="badge bg-secondary m-1">Bootstrap</span>
+                <span class="badge bg-secondary m-1">Tailwind CSS</span>
+                <span class="badge bg-secondary m-1">JavaScript</span>
+                <span class="badge bg-secondary m-1">jQuery</span>
+                <span class="badge bg-secondary m-1">AJAX</span>
+                <span class="badge bg-secondary m-1">Git & GitHub</span>
+              </div>
+
+              <h6 class="text-info mt-4">Activities & Highlights</h6>
+
+              <ul class="text-white">
+                <li>Communication</li>
+                <li>Professional Networking</li>
+                <li>Team Collaboration</li>
+                <li>Technical Workshops</li>
+                <li>Project Management</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education 04 -->
+      <div class="col-12">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <div class="row">
+
+            <div class="col-md-1">
+              <h2 class="text-info fw-bold">04</h2>
+            </div>
+
+            <div class="col-md-11">
+
+              <h4 class="text-white fw-bold">
+                BSc in Mathematics (Honours)
+              </h4>
+
+              <h6 class="text-info">
+                National University of Bangladesh
+              </h6>
+
+              <p class="text-secondary">
+                2018 – 2022
+                <span class="text-info">| CGPA: 3.39/4.00</span>
+              </p>
+
+              <p class="text-white">
+                Earned a Bachelor of Science in Mathematics (Honours), developing analytical thinking, mathematical reasoning, problem-solving, and applied mathematics skills.
+              </p>
+
+              <h6 class="text-info mt-4">Key Areas</h6>
+
+              <div class="mb-3">
+                <span class="badge bg-secondary m-1">Mathematics</span>
+                <span class="badge bg-secondary m-1">Linear Algebra</span>
+                <span class="badge bg-secondary m-1">Calculus</span>
+                <span class="badge bg-secondary m-1">Analysis</span>
+                <span class="badge bg-secondary m-1">Statistics</span>
+                <span class="badge bg-secondary m-1">Applied Mathematics</span>
+                <span class="badge bg-secondary m-1">Mathematical Modeling</span>
+                <span class="badge bg-secondary m-1">Differential Equations</span>
+                <span class="badge bg-secondary m-1">Fortran</span>
+                <span class="badge bg-secondary m-1">Mathematica</span>
+              </div>
+
+              <h6 class="text-info mt-4">Activities & Highlights</h6>
+
+              <ul class="text-white">
+                <li>Science Club</li>
+                <li>Mathematics Activities</li>
+                <li>Academic Discussions</li>
+                <li>Problem-Solving Sessions</li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
+  <!-- Career Journey / Professional Experience -->
+  <section id="experience" class="container py-5">
 
-  <section id="contact" class="container text-center py-5">
-    <h2 class="text-white mb-4">Contact with Me</h2>
-    <div class="card mx-auto bg-dark border-secondary" style="max-width:500px; box-shadow:5px 5px 16px rgba(243, 242, 242, 0.6);">
-      <div class="card-body">
-        <form>
-          <input type="text" class="form-control mb-3" placeholder="Please type your name" />
-          <input type="email" class="form-control mb-3" placeholder="Please type your email" />
-          <textarea class="form-control mb-3" rows="3" placeholder="Type your message"></textarea>
-          <button class="btn btn-info w-100">Send</button>
-        </form>
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold text-info">Career Journey</h2>
+
+      <h3 class="text-white fw-bold mt-2">
+        Professional Experience
+      </h3>
+
+      <p class="text-secondary">
+        My professional journey in full-stack development, backend engineering,
+        and production-ready web applications.
+      </p>
+
+    </div>
+
+    <div class="card bg-dark border-secondary p-4">
+
+      <div class="row">
+
+        <div class="col-md-1">
+          <h2 class="text-info fw-bold">01</h2>
+        </div>
+
+        <div class="col-md-11">
+
+          <h4 class="text-white fw-bold">
+            Full-Stack Developer
+          </h4>
+
+          <h5 class="text-info">Synex Digital</h5>
+
+          <p class="text-secondary mb-1">
+            Mar 2023 – Oct 2024
+          </p>
+
+          <p class="text-secondary">
+            <i class="bi bi-geo-alt"></i>
+            Dhaka, Bangladesh
+          </p>
+
+          <p class="text-white">
+            Worked on full-stack web development, building and maintaining
+            production applications using Laravel, PHP, SQL, and modern
+            frontend technologies in a collaborative startup environment.
+          </p>
+
+          <h6 class="text-info mt-4">
+            Key Responsibilities
+          </h6>
+
+          <ul class="text-white">
+
+            <li class="mb-2">
+              Built and maintained production web applications using
+              Laravel, PHP, and SQL.
+            </li>
+
+            <li class="mb-2">
+              Developed responsive frontend interfaces using HTML, CSS,
+              Bootstrap, and JavaScript.
+            </li>
+
+            <li class="mb-2">
+              Implemented interactive features using jQuery and AJAX.
+            </li>
+
+            <li class="mb-2">
+              Designed relational databases and optimized SQL queries.
+            </li>
+
+            <li class="mb-2">
+              Developed backend functionality using Laravel MVC
+              architecture and REST APIs.
+            </li>
+
+            <li class="mb-2">
+              Used Git and GitHub for version control and
+              collaborative development.
+            </li>
+
+            <li class="mb-2">
+              Deployed applications on AWS EC2 using Linux and Nginx.
+            </li>
+
+          </ul>
+
+          <h6 class="text-info mt-4">
+            Technologies & Skills
+          </h6>
+
+          <div>
+            <span class="badge bg-secondary m-1">Full-Stack Development</span>
+            <span class="badge bg-secondary m-1">HTML</span>
+            <span class="badge bg-secondary m-1">CSS</span>
+            <span class="badge bg-secondary m-1">Bootstrap</span>
+            <span class="badge bg-secondary m-1">JavaScript</span>
+            <span class="badge bg-secondary m-1">jQuery</span>
+            <span class="badge bg-secondary m-1">AJAX</span>
+            <span class="badge bg-secondary m-1">PHP</span>
+            <span class="badge bg-secondary m-1">Laravel</span>
+            <span class="badge bg-secondary m-1">SQL</span>
+            <span class="badge bg-secondary m-1">MySQL</span>
+            <span class="badge bg-secondary m-1">Git & GitHub</span>
+          </div>
+
+        </div>
       </div>
     </div>
+
   </section>
-<hr class="text-secondary">
-  <footer class="text-center bg-dark py-5">
-    <p class="text-white">© 2025 | Md. Jahirul Islam</p>
-    <p class="text-white">Mymenshigh, Dhaka, Bangladesh</p>
-    <div>
-        <a href="https://github.com/jahir002201" class="btn btn-sm btn-info m-2"><i class="fbi bi-github"></i></a>
-        <a href="https://www.linkedin.com/in/jahirul12/" class="btn btn-sm btn-info m-2"><i class="bi bi-linkedin"></i></a>
-        <a href="#" class="btn btn-sm btn-info m-2"><i class="bi bi-youtube"></i></a>
+
+  <!-- Backend Development & AI Engineering -->
+  <section id="expertise" class="container py-5">
+
+    <div class="text-center mb-5">
+
+      <h2 class="fw-bold text-info">
+        Backend Development & AI Engineering
+      </h2>
+
+      <p class="text-secondary">
+        Technologies and areas I work with and continue to explore.
+      </p>
+
     </div>
+
+    <div class="row g-4">
+
+      <!-- Backend -->
+      <div class="col-md-6">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <h4 class="text-info mb-3">
+            <i class="bi bi-server"></i>
+            Backend Development
+          </h4>
+
+          <p class="text-white">
+            Building backend applications, REST APIs, database-driven systems,
+            and scalable web application architectures.
+          </p>
+
+          <div>
+            <span class="badge bg-secondary m-1">Python</span>
+            <span class="badge bg-secondary m-1">Django</span>
+            <span class="badge bg-secondary m-1">Django REST Framework</span>
+            <span class="badge bg-secondary m-1">PHP</span>
+            <span class="badge bg-secondary m-1">Laravel</span>
+            <span class="badge bg-secondary m-1">REST APIs</span>
+            <span class="badge bg-secondary m-1">MySQL</span>
+            <span class="badge bg-secondary m-1">PostgreSQL</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- AI Engineering -->
+      <div class="col-md-6">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <h4 class="text-info mb-3">
+            <i class="bi bi-robot"></i>
+            AI Engineering
+          </h4>
+
+          <p class="text-white">
+            Learning and exploring AI engineering, LLM applications,
+            retrieval-augmented generation, and AI-powered software solutions.
+          </p>
+
+          <div>
+            <span class="badge bg-secondary m-1">AI Engineering</span>
+            <span class="badge bg-secondary m-1">LLM Applications</span>
+            <span class="badge bg-secondary m-1">Prompt Engineering</span>
+            <span class="badge bg-secondary m-1">RAG</span>
+            <span class="badge bg-secondary m-1">LangChain</span>
+            <span class="badge bg-secondary m-1">LangGraph</span>
+            <span class="badge bg-secondary m-1">Python</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Frontend -->
+      <div class="col-md-6">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <h4 class="text-info mb-3">
+            <i class="bi bi-code-slash"></i>
+            Frontend Development
+          </h4>
+
+          <p class="text-white">
+            Creating responsive and interactive user interfaces for
+            modern web applications.
+          </p>
+
+          <div>
+            <span class="badge bg-secondary m-1">React</span>
+            <span class="badge bg-secondary m-1">Next.js</span>
+            <span class="badge bg-secondary m-1">JavaScript</span>
+            <span class="badge bg-secondary m-1">TypeScript</span>
+            <span class="badge bg-secondary m-1">HTML</span>
+            <span class="badge bg-secondary m-1">CSS</span>
+            <span class="badge bg-secondary m-1">Bootstrap</span>
+            <span class="badge bg-secondary m-1">Tailwind CSS</span>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="col-md-6">
+
+        <div class="card bg-dark border-secondary p-4 h-100">
+
+          <h4 class="text-info mb-3">
+            <i class="bi bi-tools"></i>
+            Tools & Technologies
+          </h4>
+
+          <p class="text-white">
+            Using development tools and deployment technologies
+            to build and maintain web applications.
+          </p>
+
+          <div>
+            <span class="badge bg-secondary m-1">Git</span>
+            <span class="badge bg-secondary m-1">GitHub</span>
+            <span class="badge bg-secondary m-1">Docker</span>
+            <span class="badge bg-secondary m-1">AWS EC2</span>
+            <span class="badge bg-secondary m-1">Linux</span>
+            <span class="badge bg-secondary m-1">Nginx</span>
+            <span class="badge bg-secondary m-1">PostgreSQL</span>
+            <span class="badge bg-secondary m-1">CI/CD</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container text-center py-5">
+
+    <h2 class="text-white mb-4">Contact with Me</h2>
+
+    <div class="card mx-auto bg-dark border-secondary" style="max-width:500px; box-shadow:5px 5px 16px rgba(243, 242, 242, 0.6);">
+
+      <div class="card-body">
+
+        <form>
+          <input type="text" class="form-control mb-3" placeholder="Please type your name" />
+
+          <input type="email" class="form-control mb-3" placeholder="Please type your email" />
+
+          <textarea class="form-control mb-3" rows="3" placeholder="Type your message"></textarea>
+
+          <button class="btn btn-info w-100">Send</button>
+        </form>
+
+      </div>
+    </div>
+
+  </section>
+
+  <hr class="text-secondary">
+
+  <!-- Footer -->
+  <footer class="text-center bg-dark py-5">
+
+    <p class="text-white">
+      © 2025 | Md. Jahirul Islam
+    </p>
+
+    <p class="text-white">
+      Mymenshigh, Dhaka, Bangladesh
+    </p>
+
+    <div>
+
+      <a href="https://github.com/jahir002201" class="btn btn-sm btn-info m-2">
+        <i class="fbi bi-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/jahirul12/" class="btn btn-sm btn-info m-2">
+        <i class="bi bi-linkedin"></i>
+      </a>
+
+      <a href="#" class="btn btn-sm btn-info m-2">
+        <i class="bi bi-youtube"></i>
+      </a>
+
+    </div>
+
   </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
